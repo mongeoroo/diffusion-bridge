@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0 accelerate launch ddpm/train_norm.py
