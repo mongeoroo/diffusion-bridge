@@ -20,17 +20,12 @@ from tqdm import tqdm
 splits = ["train", "val", "test"]
 
 
-def main(clip_model_type: str, mini: bool):
+def main(clip_model_type: str):
     device = torch.device("cuda:0")
     clip_model_name = clip_model_type.replace("/", "_")
 
-    if mini:
-        out_paths = [
-            f"{DATA_ROOT}/data/mscoco/oscar_split_{clip_model_name}_{split}_mini.pkl"
-            for split in splits
-        ]
-    else:
-        out_paths = [
+
+    out_paths = [
             f"{DATA_ROOT}/data/mscoco/oscar_split_{clip_model_name}_{split}.pkl"
             for split in splits
         ]
@@ -41,8 +36,6 @@ def main(clip_model_type: str, mini: bool):
         data = json.load(f)["images"]
     print("%0d images loaded from json " % len(data))
 
-    if mini:
-        data = data[:500]
 
     all_images = dict(zip(splits, [{}, {}, {}]))
     all_captions = dict(zip(splits, [{}, {}, {}]))
@@ -118,6 +111,5 @@ if __name__ == "__main__":
         default="ViT-B/32",
         choices=("RN50", "RN101", "RN50x4", "ViT-B/32", "ViT-L/14"),
     )
-    parser.add_argument("--mini", action="store_true", help="only save first 500")
     args = parser.parse_args()
-    exit(main(args.clip_model_type, args.mini))
+    exit(main(args.clip_model_type))
