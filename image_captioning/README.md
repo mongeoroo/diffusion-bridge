@@ -1,7 +1,7 @@
 # Image Captioning
 
 ## Datasets
-Download the MSCOCO dataset from [here](https://www.kaggle.com/datasets/shtvkumar/karpathy-splits). 
+Download the MSCOCO karpathy-splits caption dataset from [here](https://www.kaggle.com/datasets/shtvkumar/karpathy-splits). 
 
 ## Getting Started
 
