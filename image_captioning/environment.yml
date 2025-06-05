@@ -228,4 +228,3 @@ dependencies:
     - xxhash==3.5.0
     - yacs==0.1.8
     - yarl==1.15.2
-prefix: /compuworks/anaconda3/envs/ccc
