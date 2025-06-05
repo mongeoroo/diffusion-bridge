@@ -1,4 +1,4 @@
-name: ccc
+name: db_captioning
 channels:
   - pytorch
   - conda-forge
