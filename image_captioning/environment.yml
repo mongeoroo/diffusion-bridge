@@ -1,0 +1,24 @@
+name: db_cap
+channels:
+  - defaults
+dependencies:
+- python>=3.9
+- pip>=21
+- scikit-image=0.18.1
+- pip:
+   - transformers=4.28.1
+   - ftfy
+   - regex
+   - tqdm
+   - git+https://github.com/openai/CLIP.git
+   - omegaconf==2.1.1
+   - pytorch_lightning
+   - requests
+   - timm
+   - git+https://github.com/flauted/coco-caption.git@python23
+   - wandb
+   - numpy
+   - pandas
+   - scikit-learn
+   - evaluate
+   - rouge_score
