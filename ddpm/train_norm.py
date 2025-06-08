@@ -1,5 +1,5 @@
 import torch
-from denoising_diffusion_pytorch import Unet1D, GaussianDiffusion1D_norm, Trainer1D, Dataset1D
+from denoising_diffusion_pytorch.denoising_diffusion_pytorch_1d import Unet1D, GaussianDiffusion1D_norm, Trainer1D, Dataset1D
 import pickle
 import numpy as np
 import torch.nn.functional as F
