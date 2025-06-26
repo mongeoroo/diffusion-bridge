@@ -2,12 +2,12 @@ import pickle
 
 import torch
 
-TEXT_EMBED_MEAN = "image_captioning/data/mscoco/modified_normalized_text_embed_mean.pkl"
-IMAGE_EMBED_MEAN = "image_captioning/data/mscoco/modified_normalized_image_embed_mean.pkl"
+TEXT_EMBED_MEAN = "image_captioning/data/coco/normalized_text_embed_mean.pkl"
+IMAGE_EMBED_MEAN = "image_captioning/data/coco/normalized_image_embed_mean.pkl"
 
 
 def main():
-    data_path = "image_captioning/data/mscoco/ddpm_oscar_split_ViT-B_32_train_half.pkl"
+    data_path = "image_captioning/data/coco/oscar_split_ViT-B_32_train.pkl"
 
     print(f"Loading data from {data_path}")
     with open(data_path, "rb") as f:
