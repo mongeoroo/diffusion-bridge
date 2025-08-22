@@ -9,6 +9,7 @@ Download the MSCOCO karpathy-splits caption dataset from [here](https://www.kagg
 Create conda environment
 ```
 conda env create -f environment.yml
+ln -s [pathtoCOCOdataset] ./data/mscoco
 ```
 
 Note: if using Imagebind, follow the [official repo](https://github.com/facebookresearch/ImageBind) to create a separate imagebind conda environment.
