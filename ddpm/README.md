@@ -18,7 +18,7 @@ $ pip install denoising_diffusion_pytorch
 ## Datasets
 Download the MSCOCO dataset from [here](https://www.kaggle.com/datasets/shtvkumar/karpathy-splits). 
 Link the dataset path to "data/mscoco" 
-For the data preparation, move to [image_captioning](https://github.com/monggeoroo/diffusion-bridge/image_captioning)
+For the data preparation, move to [image_captioning](https://github.com/mongeoroo/diffusion-bridge/tree/master/image_captioning)
 (preprocessing coco labels and computing modality means)
 
 ### Training the distribution of text embedding.
