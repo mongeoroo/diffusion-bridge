@@ -24,13 +24,13 @@ For the data preparation, move to [image_captioning](https://github.com/mongeoro
 ### Training the distribution of text embedding.
 
 ```bash
-bash script_train.sh
+bash ddpm/script_train.sh
 ```
 
 ### Inferencing text and vision embedding through the trained diffusion model.
 
 ```bash
-bash script_inference.sh
+bash ddpm/script_inference.sh
 ```
 
 ## Citations
