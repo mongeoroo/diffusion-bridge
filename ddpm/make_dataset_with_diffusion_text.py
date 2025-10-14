@@ -12,7 +12,7 @@ os.chdir('ddpm')
 
 parser = argparse.ArgumentParser(description='arg parser')
 parser.add_argument('--split',default="val", type=str, help='split type')
-parser.add_argument('--inference_step',default=600, type=int, help='inference step')
+parser.add_argument('--inference_step',default=400, type=int, help='inference step')
 parser.add_argument('--weight_path',default='results/model-300.pt', type=str, help='weight path of a trained diffusion model')
 args = parser.parse_args()
 
