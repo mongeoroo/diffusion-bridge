@@ -40,7 +40,7 @@ data:
   dataset: 'coco'
   seed: 1234
   train_split: 'train'
-  train_data_path: ./data/mscoco/modified_oscar_split_ViT-B_32_train.pkl
+  train_data_path: ./data/mscoco/modified_oscar_split_ViT-B_32_train_400.pkl
   val_data_path: ./data/mscoco/modified_oscar_split_ViT-B_32_val.pkl
   test_data_path: ./data/mscoco/modified_oscar_split_ViT-B_32_test.pkl
   text_embed_mean_path: ./data/mscoco/normalized_text_embed_mean.pkl
