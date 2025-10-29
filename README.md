@@ -4,7 +4,7 @@
 
 
 This repo provides the PyTorch source code of our paper: 
-[Diffusion Bridge: Leveraging Diffusion Model to Reduce the Modality Gap Between Text and Vision for Zero-Shot Image Captioning](https://openaccess.thecvf.com/content/CVPR2025/papers/Lee_Diffusion_Bridge_Leveraging_Diffusion_Model_to_Reduce_the_Modality_Gap_CVPR_2025_paper.pdf) (CVPR 2025).
+[Diffusion Bridge: Leveraging Diffusion Model to Reduce the Modality Gap Between Text and Vision for Zero-Shot Image Captioning](https://openaccess.thecvf.com/content/CVPR2025/html/Lee_Diffusion_Bridge_Leveraging_Diffusion_Model_to_Reduce_the_Modality_Gap_CVPR_2025_paper.html) (CVPR 2025).
 
 ## 🔮 Abstract
 
